@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+    /* .nav-main-btn{
+        display: none; 
+    } */
+    
+    .nav-button{
+        display: none;
+    }
+    #hambar{
+        display: block;
+        font-size: large;
+    }
+    .banner-main{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-model{
+        width: 100%;
+    }
+    .banner-main-text{
+        font-size: 36px;
+    }
+}

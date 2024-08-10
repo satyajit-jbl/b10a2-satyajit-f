@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(91, 84, 84);
+    font-family: "Inter", sans-serif;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Shared style */
+.display-flex{
+    display: flex;
+}
+.small-text{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 1.5rem; */
+
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-center{
+   text-align: center; 
+}
+
+/* Navbar start here */
+.nav-main{
+    justify-content: space-between;
+    padding: 2rem 4rem;
+
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 800;
+}
+#nav-button-home{
+    background-color: rgb(230, 83, 60);
+    width: 92px;
+    height: 38px;
+    border-radius: 48px;
+
+}
+.nav-button{
+    color: rgb(255, 255, 255);
+    font-size: 1.12rem;
+    font-weight: 400;
+    border: none;
+    margin-left: 1rem;
+    /* padding: 5px 5px; */
+    /* width: 72px;
+    height: 32px;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 8px 20px 8px 20px; */
+    /* color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500; */
+    /* line-height: 22px;
+    letter-spacing: 0%; */
+}
+#hambar{
+    display: none;
+}
+
+/* BANNER STYLE START HERE */
+.banner-main{
+    width: 100%;
+    padding: 2rem 4rem;
+    border: 1px solid red;
+}
+.banner-content{
+    width: 50% ;
+    border: 5px solid purple;
+}
+.banner-model{
+    width: 50%;
+    border: 2px solid green;
+}
+.banner-main-text{
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+    text-align: left;
+}
+.banner-btn{
+    /* margin: 0px 14px; */
+    margin-top: 28px;
+}
+.btn-primary{
+    width: 224px;
+    height: 54px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+}
+.banner-main p{
+    margin-top: 28px;
+    
+}
+.banner-model img{
+    /* height: 100%; */
+    position: relative;
+    display: block;
+    margin-left: auto;
+    /* margin-right: auto; */
+}
+/* badge */
+.banner-badge350{
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    fill: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+    left: 994px;
+    top: 556px;
+    opacity: 80%;
+
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
