@@ -22,4 +22,67 @@
     .banner-main-text{
         font-size: 36px;
     }
+    .banner-badge350{
+        /* position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        fill: rgba(48, 48, 48, 0.54);*/
+        width: 170px;
+        height: 76px;
+        /*justify-content: center;
+        align-items: center; */
+        left: 104px;
+        top: 696px;
+        /* opacity: 80%; */
+    
+    }
+    .banner-badge500{
+        /* position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        fill: rgba(48, 48, 48, 0.54);*/
+        width: 170px;
+        height: 76px;
+        /*justify-content: center;
+        align-items: center; */
+        left: 264px;
+        top: 496px;
+        /* opacity: 80%; */
+    
+    }
+    .change-habit-list{
+        flex-direction: column;
+    }
+    /* Run an Extra Mile Easily */
+    .run-extra-main{
+        flex-direction: column;
+    }
+    .run-extra-title{
+        font-size: 2rem;
+    }
+    .run-extra-content{
+        width: 100%;
+    }
+    .run-extra-model{
+        width: 100%;
+    }
+    .btn-primary{
+        width: 100%;
+    }
+    .run-image{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+.bmi-calculator{
+    flex-direction: column;
+}
+.bmi-child{
+    width: 100%;
+    
+}
 }
