@@ -9,6 +9,7 @@
     #hambar{
         display: block;
         font-size: large;
+        color: aliceblue;
     }
     .banner-main{
         flex-direction: column;
@@ -87,5 +88,17 @@
 }
 .team{
     grid-template-columns: repeat(1, 1fr);
+    /* gap: 50px; */
+    height: 100%;
+}
+.footer-fitness{
+    flex-direction: column;
+}
+.fitness{
+    width: 100%;
+}
+.get-started{
+    width: 100%;
+    margin-top: 20px;
 }
 }

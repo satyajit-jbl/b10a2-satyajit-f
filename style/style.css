@@ -6,7 +6,7 @@
     font-family: "Inter", sans-serif;
 }
 body{
-    background-color: rgb(91, 84, 84);
+    background-color: rgb(0, 0, 0);
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -55,7 +55,7 @@ body{
 
 }
 .nav-button{
-    background-color: rgb(91, 84, 84);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 1.12rem;
     font-weight: 400;
@@ -82,15 +82,15 @@ body{
 .banner-main{
     width: 100%;
     padding: 2rem 4rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .banner-content{
     width: 50% ;
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
 }
 .banner-model{
     width: 50%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .banner-main-text{
     color: rgb(255, 255, 255);
@@ -142,8 +142,8 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    /* background: rgba(48, 48, 48, 0.54);
-    fill: rgba(48, 48, 48, 0.54); */
+    background: rgba(48, 48, 48, 0.54);
+    fill: rgba(48, 48, 48, 0.54);
     width: 206px;
     height: 96px;
     align-items: center;
@@ -152,7 +152,7 @@ body{
    
     left: 1294px;
     top: 196px;
-    opacity: 80%;
+    /* opacity: 80%; */
     
 }
 .banner-badge-txt{
@@ -328,4 +328,43 @@ table td, th{
     color: white;
     margin-top: -0px;
     margin-left: 20px;
+}
+/* footer */
+.footer-fitness{
+    padding: 2rem 4rem;
+    justify-content: space-around;
+}
+.fitness{
+    width: 40%;
+}
+.get-started{
+    width: 30%;
+}
+.footer-fitness p{
+    width: 440px;
+    margin-top: 30px;
+}
+.footer-fitness p, ul, li{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    text-align: left;
+}
+.footer-fitness h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+ul, li{
+    list-style-type: none;
+}
+hr{
+    display: block;
+    width: 69rem;
+    /* justify-content: center; */
+    
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    /* border-width: 1px; */
+    margin-top: 0.5em;
+    margin-bottom: 2.5em;
 }
