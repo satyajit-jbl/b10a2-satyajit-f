@@ -212,6 +212,7 @@ text-align: center;
 }
 /* RUN AN EXTRA MILE EASILY */
 .run-extra-main{
+    /* border: 1px solid red; */
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
     /* padding: 2rem 4rem; */
@@ -226,8 +227,8 @@ text-align: center;
     zoom: 56%;
 } */
 .run-extra-content{
+    margin-left: 30px;
     width: 50% ;
-    background-color: rgb(34, 34, 34);
     /* border: 5px solid purple; */
 }
 .run-extra-model{
@@ -254,7 +255,13 @@ text-align: center;
     object-position: 65% 28%;
     /* zoom: 56%; */
     display: block;
-    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    /* margin-right: 20px; */
+    /* padding: 30px 30px; */
+    /* justify-content: center; */
+    /* align-items: center; */
     /* background-color: rgb(34, 34, 34); */
 
     /* padding: 50px 50px; */
@@ -264,8 +271,15 @@ text-align: center;
     /* border: 2px solid red; */
     background-color: rgb(34, 34, 34);;
 }
+.bmi-calculator-heading{
+    padding: 88px;
+    margin-left: 20%;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
 .bmi-child{
     width: 50%;
+    margin-bottom: 20px;
     /* border: 1px solid green; */
 }
 .bmi-calculator-table{
@@ -273,8 +287,18 @@ text-align: center;
     /* align-items: center; */
     /* justify-content: center; */
     display: block;
-    margin-left: 50%;
+   /* padding: 0px 200px; */
+    /* margin-left: 50%; */
     /* margin-right: auto; */
+}
+.calculate-bmi-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+text-align: left;
 }
 table{
     border-collapse: collapse;
@@ -282,6 +306,7 @@ table{
 table td, th{
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .form-container{
     /* border: 2px solid blue; */
