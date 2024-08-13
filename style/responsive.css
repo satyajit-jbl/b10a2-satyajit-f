@@ -6,6 +6,11 @@
     .nav-button{
         display: none;
     }
+    .nav-main-btn{
+        
+    border: none;
+   
+    }
     #hambar{
         display: block;
         font-size: large;
@@ -19,6 +24,12 @@
     }
     .banner-model{
         width: 100%;
+    }
+    #shape{
+        
+        font-size: 78px;
+        
+       
     }
     .banner-main-text{
         font-size: 36px;
