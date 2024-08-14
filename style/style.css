@@ -10,6 +10,7 @@ body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* @import url('https://fonts.cdnfonts.com/css/miama'); */
+
 /* Shared style */
 .display-flex{
     display: flex;
@@ -18,8 +19,8 @@ body{
     color:rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400;
+    
     /* line-height: 1.5rem; */
-
 }
 .large-text{
     color: rgb(255, 255, 255);
@@ -175,14 +176,19 @@ border-radius: 39px;
     fill: rgba(48, 48, 48, 0.54);
     width: 206px;
     height: 96px;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center;
     align-items: center; */
+    padding-left: 3rem;
+    padding-top: .5rem;
    
     left: 1294px;
     top: 196px;
     /* opacity: 80%; */
     
+}
+.banner-badge500 h1{
+    font-size: 2.5rem;
 }
 
 .banner-badge-txt{
@@ -284,6 +290,9 @@ text-align: center;
     /* padding: 50px 50px; */
 }
 /* BMI */
+.bmi{
+    /* margin-left: 200px; */
+}
 .bmi-calculator{
     /* border: 2px solid red; */
     background-color: rgb(34, 34, 34);;
@@ -303,10 +312,13 @@ text-align: center;
     /* border: 3px solid purple; */
     /* align-items: center; */
     /* justify-content: center; */
-    display: block;
+    /* display: block; */
    /* padding: 0px 200px; */
-    /* margin-left: 50%; */
+    margin-left: 50%;
     /* margin-right: auto; */
+}
+.bmi{
+    margin-top: 70px;
 }
 .calculate-bmi-title{
     margin-top: 30px;
@@ -373,6 +385,7 @@ table td, th{
     text-align: center; */
     /* justify-items: center; */
     margin: 0 auto;
+    margin-top: 40px;
 }
 .team img{
     width:300px;
