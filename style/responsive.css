@@ -83,6 +83,12 @@
     .change-habit-list{
         flex-direction: column;
     }
+    /* PLAN */
+    .plan-main div{
+        width: 100%;
+        /* margin-left: 30px; */
+        margin-left: auto;
+    }
     /* Run an Extra Mile Easily */
     .run-extra-main{
         flex-direction: column;
@@ -97,6 +103,7 @@
     }
     .run-extra-model{
         width: 100%;
+        /* margin-left: auto; */
     }
     .btn-primary .btn-primary2{
         width: 100%;
@@ -107,6 +114,10 @@
         object-fit: cover;
         margin-left: auto;
         
+    }
+    .plan-main{
+        /* width: 100%; */
+        flex-direction: column;
     }
 .bmi-calculator{
     flex-direction: column;
